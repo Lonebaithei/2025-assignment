@@ -131,3 +131,14 @@ main a[href^="mailto:"] {
         
     }
 
+    @media (max-width: 768px) {
+        .ranch-container {
+            flex-direction: column; /* Stacks image and description vertically on small screens */
+        }
+    
+        .ranch-image {
+            width: 100%; /* Makes the image full width on small screens */
+            margin-right: 0; /* Removes the margin */
+            margin-bottom: 10px; /* Adds space below the image */
+        }
+    }
