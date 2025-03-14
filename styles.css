@@ -124,10 +124,6 @@ img {
     border: 1px solid #fffbbd;
         
     border-radius: 10px;
-
-    max-height: 100%;
-
-    max-width: 100%;
         
     }
 
@@ -150,16 +146,17 @@ main a[href^="mailto:"] {
 }
 
 .ranch-image {
-    width: 200px;
-    height: auto;
     margin-right: 20px;
     border-radius: 8px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .ranch-description {
     flex: 1;
     font-size: 16px;
     color: #333;
+    align-items: right;
 }
 
 @media (max-width: 768px) {
