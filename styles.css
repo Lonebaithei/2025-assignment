@@ -20,7 +20,6 @@ header {
     background-position: center center;
     background-size: contain;/*Resize to fit without cropping*/
     background-repeat: no-repeat;/*Ensure the image doesn`t repeat*/
-    height: 100vh;
     display: flex;
 
      
@@ -36,7 +35,7 @@ header h1 {
         
 nav {
         
-    margin-top: 10%;
+    margin-top: 50%;
     background: rgb(117, 50, 50);
     backdrop-filter: blur(10px);
     padding: 1rem;
