@@ -20,8 +20,6 @@ header {
     background-position: center center;
     background-size: contain;/*Resize to fit without cropping*/
     background-repeat: no-repeat;/*Ensure the image doesn`t repeat*/
-    height: 300px;
-    width: 100%;
      
     }
         
