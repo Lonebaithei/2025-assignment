@@ -20,7 +20,13 @@ header {
     background-position: center center;
     background-size: contain;/*Resize to fit without cropping*/
     background-repeat: no-repeat;/*Ensure the image doesn`t repeat*/
-    background-attachment: fixed;/*Prevent the image from scrolling with the page*/
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
 
 
