@@ -39,7 +39,7 @@ nav {
     background: rgb(117, 50, 50);
     backdrop-filter: blur(10px);
     padding: 1rem;
-    position: absolute;
+    position: fixed;
     width: 80%;
     left: 50%;
     transform: translate(-50%);
