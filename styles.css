@@ -30,15 +30,17 @@ header {
         
         
 header h1 {
-        
-    margin: 10px;
+    
+    display: inline-block;
+    justify-content: center;
+    margin: 0;
     text-align: center;
     color: #fff;
         
     }
         
         
-nav a{
+nav a {
         
     margin-top: 50%;
     background: rgb(117, 50, 50);
