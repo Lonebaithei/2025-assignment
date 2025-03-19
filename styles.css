@@ -22,6 +22,9 @@ header {
     background-repeat: no-repeat;/*Ensure the image doesn`t repeat*/
     display: flex;
 
+    padding: 20px;
+    text-align: center;
+
      
     }
         
@@ -29,6 +32,8 @@ header {
 header h1 {
         
     margin: 0;
+    text-align: center;
+    color: #fff;
         
     }
         
