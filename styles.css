@@ -48,9 +48,9 @@ nav {
     padding: 1rem;
     position: fixed;
     width: 80%;
-    left: 50%;
+    left: 10%;
     transform: translate(-50%);
-    top: 2rem;
+    top: 5rem;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
