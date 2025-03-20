@@ -15,42 +15,38 @@ body {
     }
 
 header {
-
+    position: relative; /* Ensure header is positioned relative for z-index to work */
     background-image: url(images/img8.jpg);
     background-position: center center;
-    background-size: contain;/*Resize to fit without cropping*/
-    background-repeat: no-repeat;/*Ensure the image doesn`t repeat*/
+    background-size: cover; /* Resize to cover the entire header */
+    background-repeat: no-repeat;
     display: flex;
-
     padding: 20px;
     text-align: center;
+    z-index: 1; /* Ensure header is above other elements */
+}
 
-     
-    }
-        
-        
 header h1 {
-    
+    position: relative; /* Ensure h1 is positioned relative for z-index to work */
+    z-index: 2; /* Ensure h1 is above the header background image */
     display: inline-block;
     justify-content: center;
     margin: 0;
     text-align: center;
     color: #fff;
-        
-    }
-        
-        
+}
+
 nav {
-        
+    position: relative; /* Ensure nav is positioned relative for z-index to work */
+    z-index: 3; /* Ensure nav is above the header background image */
     margin-top: 50%;
     background: rgb(117, 50, 50);
     backdrop-filter: blur(10px);
     padding: 1rem;
     position: fixed;
     width: 80%;
-    left: center;
-
-    transform: translate(-50%);
+    left: 50%; /* Center the nav horizontally */
+    transform: translateX(-50%);
     top: 5rem;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.5);
