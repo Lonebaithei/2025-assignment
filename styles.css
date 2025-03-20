@@ -80,3 +80,35 @@
       display: none; /* Replace with hamburger menu logic */
     }
   }
+
+  /* Enhanced Image Grid */
+.image-container {
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .image-container div {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container div:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-container img {
+    height: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Modernize Cards */
+  .card {
+    border: none !important;
+    background: linear-gradient(145deg, #ffffff, #f8f9fa) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  }
