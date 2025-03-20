@@ -18,9 +18,11 @@ header {
     position: relative; /* Ensure header is positioned relative for z-index to work */
     background-image: url(images/img8.jpg);
     background-position: center center;
-    background-size: cover; /* Resize to cover the entire header */
+    background-size: 70%; /* Decrease the width by 30% */
     background-repeat: no-repeat;
     display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
     padding: 20px;
     text-align: center;
     z-index: 1; /* Ensure header is above other elements */
@@ -30,7 +32,6 @@ header h1 {
     position: relative; /* Ensure h1 is positioned relative for z-index to work */
     z-index: 2; /* Ensure h1 is above the header background image */
     display: inline-block;
-    justify-content: center;
     margin: 0;
     text-align: center;
     color: #fff;
