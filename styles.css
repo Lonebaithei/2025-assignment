@@ -71,8 +71,12 @@
 
   }
 
+  /* MAIN STYLES */
+.main {
+    background-image: url(images/img12.webp);
+  }
 
-  
+
 /* NAVIGATION STYLES */
 .nav-container {
     background: linear-gradient(135deg, #0a1a2f 0%, #1a1a3a 100%); /* Deep space gradient */
