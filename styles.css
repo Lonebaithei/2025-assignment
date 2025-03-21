@@ -1,6 +1,7 @@
 /*HEADER STYLES*/
 .header {
-    background: linear-gradient(135deg, #0a1a2f 0%, #1a1a3a 100%); /* Deep space gradient */
+    
+    background-image: url(images/img8.jpg);
     color: #fff;
     padding: 2rem 0;
     text-align: center;
