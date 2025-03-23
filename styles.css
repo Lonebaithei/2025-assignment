@@ -242,8 +242,9 @@
   }
 }
 
+/*Body Container, Background Styling*/
 body {
-  background-image: url(images/img8.jpg);
+  background-image: url(images/img8.jpg);/*Sets the background image*/
   background-size: cover;/*Ensures the image covers the entire page*/
   background-position: center;/*Centers the image*/
   background-repeat: no-repeat;/*Prevents the image from repeating*/
@@ -254,3 +255,21 @@ body {
   color: #333;
 
 }
+
+/*Container,Text Styling*/
+.h2 {
+  font-size: 2.5rem;/*Sets the font size*/
+  font-weight: 700;/*Sets the font weight*/
+  margin-bottom: 1rem;/*Sets the margin at the bottom*/
+  text-align: center;/*Centers the text*/
+  color: #fff;/*Sets the text color to white*/
+}
+
+.p {
+  font-size: 1.2rem;/*Sets the font size*/
+  font-weight: 500;/*Sets the font weight*/
+  margin-bottom: 1rem;/*Sets the margin at the bottom*/
+  text-align: center;/*Centers the text*/
+  color: #fff;/*Sets the text color to white*/
+}
+
