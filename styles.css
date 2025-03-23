@@ -185,8 +185,8 @@
   /* Modernize Cards */
   .card {
     border: none !important;
-    background: linear-gradient(145deg, #ffffff, #f8f9fa) !important;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.3)) !important;/*Sets the background color*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;/(Sets the box shadow)*/
   }
 
   /* Updated Image Container Styling */
