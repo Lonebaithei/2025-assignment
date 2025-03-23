@@ -191,7 +191,7 @@
 
   /* Updated Image Container Styling */
 .image-container {
-  display: flex;
+  display: flex;/*Displays the images in a row*/
   flex-direction: column;
   gap: 2rem;
   margin: 2rem 0;
@@ -201,7 +201,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  background: white;
+  background: rgba(0, 0, 0, 0.3);/*Sets the background color*/
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
