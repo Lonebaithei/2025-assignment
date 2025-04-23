@@ -286,7 +286,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+.form-container{
   display: flex;
   height: 100vh;
   justify-content: center;
