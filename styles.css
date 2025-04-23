@@ -10,24 +10,15 @@
     z-index: 1;
   }
   
-  .header h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-shadow: 0 0 15px rgba(0, 247, 255, 0.4);
+  .Home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4b4b4b, #181818); /* Dark gradient */
+    color: #e6e6e6e0; /* Light gray text */
     text-align: center;
-  }
-  
-  .header p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-  }
-  
-  .header img {
-    width: 100px;
-    border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   }
 
   /* Updated Image Container Styling */
