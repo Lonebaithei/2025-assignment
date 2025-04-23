@@ -2,7 +2,7 @@
 .header {
     
     background-color: #364353;
-    color: #fff;
+    color: #fff;/*Sets the text color to white*/
     padding: 2rem 0;
     text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -60,9 +60,19 @@
   /* Modernizing Cards */
   .card {
     border: none !important;
-    background: linear-gradient(145deg, #ffffff, #f8f9fa) !important;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+    background: beige;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* Soft shadow */
+    border-radius: 10px !important; /* Rounded corners */
   }
+
+  .card-body {
+    color: black !important; /* Text color */
+    padding: 2rem !important; /* Increased padding */
+    background: rgba(255, 255, 255, 0.8) !important; /* Semi-transparent background */
+    border-radius: 10px !important; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* Soft shadow */
+  }
+   
   
   /* Updated Image Container Styling */
   .image-container {
@@ -181,13 +191,7 @@
   .image-container img:hover {
     transform: scale(1.05);
   }
-  
-  /* Modernize Cards */
-  .card {
-    border: none !important;
-    background: linear-gradient(rgba(0, 0, 0, 0.3)) !important;/*Sets the background color*/
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;/(Sets the box shadow)*/
-  }
+
 
   /* Updated Image Container Styling */
 .image-container {
@@ -244,7 +248,7 @@
 
 /*Body Container, Background Styling*/
 body {
-  background-image: url(images/img8.jpg);/*Sets the background image*/
+  background-color: black;/*Sets the background color to black*/
   background-size: cover;/*Ensures the image covers the entire page*/
   background-position: center;/*Centers the image*/
   background-repeat: no-repeat;/*Prevents the image from repeating*/
