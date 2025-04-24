@@ -15,7 +15,6 @@
     flex-direction: ;
     align-items: center;
     justify-content: center;
-    height: 10vh; /* Sets the height of the main section */
     background: linear-gradient(135deg, #4b4b4b, #181818); /* Dark gradient */
     color: #e6e6e6e0; /* Light gray text */
     text-align: center;
