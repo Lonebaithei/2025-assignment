@@ -294,3 +294,26 @@ body {
   padding: 25px 30px; /* Padding */
   border-radius: 5px; /* Rounded corners */
 }
+
+.form_container .title {
+  font-size: 25px; /* Font size */
+  font-weight: 600; /* Font weight */
+  position: relative;
+}
+
+.form_container .title::before {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 30px;
+background: linear-gradient(135deg, #71b7e6, #9b59b6); 
+
+}
+
+.form_container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 12px 0;
+}
