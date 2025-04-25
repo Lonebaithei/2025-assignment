@@ -282,3 +282,16 @@ body {
   background: linear-gradient(135deg, #71b7e6, #9b59b6); 
 }
 
+.form_container {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+  max-width: 700px; /* Set a max width */
+  width: 100%; /* Full width */
+  background: #fff; /* White background */
+  padding: 25px 30px; /* Padding */
+  border-radius: 5px; /* Rounded corners */
+}
+.form_containner .
