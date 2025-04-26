@@ -1,4 +1,16 @@
 /*HEADER STYLES*/
+.my_cover {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cover_container {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
 .header {
     
     background-color: #364353;
