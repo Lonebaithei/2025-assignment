@@ -56,20 +56,6 @@
     transition: transform 0.3s ease; 
     margin: auto;
   }
-  
-  .image-container div:hover {
-    transform: translateY(-5px); 
-  }
-  
-  .image-container img {
-    height: 250px;
-    width: 75%;  
-    transition: transform 0.3s ease;
-  }
-  
-  .image-container img:hover {
-    transform: scale(10.05); /* Slightly larger scale */
-  }
 
   .bottom-right-btn {
     position: absolute;  /* Absolute positioning relative to container */
@@ -88,6 +74,21 @@
   .bottom-right-btn:hover {
     background-color: #45a049;
   }
+  
+  .image-container div:hover {
+    transform: translateY(-5px); 
+  }
+  
+  .image-container img {
+    height: 250px;
+    width: 75%;  
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(10.05); /* Slightly larger scale */
+  }
+
   
   /* Modernizing Cards */
   .card {
