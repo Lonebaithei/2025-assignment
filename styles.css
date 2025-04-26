@@ -12,7 +12,7 @@
   
   main{
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #4b4b4b, #181818); /* Dark gradient */
@@ -46,7 +46,7 @@
   }
   
   .image-container div:hover {
-    transform: translateY(-50px); 
+    transform: translateY(-5px); 
   }
   
   .image-container img {
@@ -56,7 +56,7 @@
   }
   
   .image-container img:hover {
-    transform: scale(1.05);
+    transform: scale(10.05); /* Slightly larger scale */
   }
 
   .bottom-right-btn {
@@ -258,7 +258,7 @@
 
 /*Body Container, Background Styling*/
 body {
-  background-color: #BC9601;
+  background-color: #fff;/*Sets the background color to white*/
   background-size: cover;/*Ensures the image covers the entire page*/
   background-position: center;/*Centers the image*/
   background-repeat: no-repeat;/*Prevents the image from repeating*/
