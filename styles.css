@@ -46,7 +46,7 @@
   }
   
   .image-container div:hover {
-    transform: translateY(-5px);
+    transform: translateY(-50px); 
   }
   
   .image-container img {
