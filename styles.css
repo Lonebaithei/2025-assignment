@@ -59,7 +59,7 @@
 
   
 
-  .btn-primary {
+  .btn {
     position: absolute;  /* Absolute positioning relative to container */
     bottom: 0;           /* Align to bottom */
     right: 0;            /* Align to right */
