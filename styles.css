@@ -256,6 +256,10 @@
   
 }
 
+.about {
+  text-align: left;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .image-container div {
