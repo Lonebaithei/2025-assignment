@@ -280,7 +280,7 @@
 
 /*Body Container, Background Styling*/
 body {
-  background-color: #fff;/*Sets the background color to white*/
+  background-image: url(website-images/img17.jpg);
   background-size: cover;/*Ensures the image covers the entire page*/
   background-position: center;/*Centers the image*/
   background-repeat: no-repeat;/*Prevents the image from repeating*/
