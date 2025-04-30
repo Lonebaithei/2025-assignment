@@ -390,6 +390,7 @@ button:hover {
 .form-container {
   flex: 1; /* Takes remaining space */
   min-width: 400px; /* Prevent form from becoming too narrow */
+  margin: 2rem;
 }
 
 @media (max-width: 768px) {
