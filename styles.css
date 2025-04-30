@@ -1,15 +1,4 @@
 /*HEADER STYLES*/
-.my_cover {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.cover_container {
-  position: relative;
-  height: 100%;
-  width: 100%; 
-}
 
 .header {
     
@@ -21,18 +10,32 @@
     position: relative;
     z-index: 1;
   }
+
+  body {
+    background-image: url(website-images/img17.jpg);
+    background-size: cover;/*Ensures the image covers the entire page*/
+    background-position: center;/*Centers the image*/
+    background-repeat: no-repeat;/*Prevents the image from repeating*/
+    background-attachment: fixed;/*Keeps the image fixed while scrolling*/
+    font-family: Arial, sans-serif;
+    margin: 1.6;
+    padding: 0;
+    color: #ffffff;/*Sets the text color to White*/
+    ;
+  
+  }
   
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #4b4b4b, #181818); /* Dark gradient */
+    background: linear-gradient(135deg, #4b4b4b, #181818); 
     color: #e6e6e6e0; /* Light gray text */
     text-align: center;
   }
 
-  /* Updated Image Container Styling */
+  /* Image Container Styling */
   .image-container {
     display: flex;
     flex-direction: column;
@@ -98,6 +101,7 @@
     background: beige;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* Soft shadow */
     border-radius: 10px !important; /* Rounded corners */
+    margin: auto;
   }
 
   .card-body {
@@ -278,19 +282,6 @@
   }
 }
 
-/*Body Container, Background Styling*/
-body {
-  background-image: url(website-images/img17.jpg);
-  background-size: cover;/*Ensures the image covers the entire page*/
-  background-position: center;/*Centers the image*/
-  background-repeat: no-repeat;/*Prevents the image from repeating*/
-  background-attachment: fixed;/*Keeps the image fixed while scrolling*/
-  font-family: Arial, sans-serif;
-  margin: 1.6;
-  padding: 0;
-  color: #ffffff;/*Sets the text color to White*/
-
-}
 
 /*Container,Text Styling*/
 .h2 {
