@@ -30,11 +30,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5) 
+    background-color: rgba(0, 0, 0, 0.6) 
     color: #e6e6e6e0; 
     text-align: center;
     padding-top: 20px;
-    border: 1px solid black;
+    border: 0.3px solid black;
     border-radius: 10px;
     box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
 
@@ -239,10 +239,10 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  background: rgba(0, 0, 0, 0.3);/*Sets the background color*/
+  background: rgba(0, 0, 0, 0.7);/*Sets the background color*/
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 10.0);
   transition: transform 0.3s ease;
 }
 
