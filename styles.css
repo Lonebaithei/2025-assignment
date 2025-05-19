@@ -412,3 +412,23 @@ button:hover {
   display: flex;
   gap: 16px;
 }
+
+/*about styles*/
+.history {
+  width: 100%;
+
+  display: grid;
+  grid:
+    "about-Us" 240px
+    "our history" 240px
+    / 240px;
+  gap: 8px;
+  grid-auto-flow: column;
+}
+
+.about-Us { 
+  grid-area: about-us; 
+}
+.our history { 
+  grid-area: our history; 
+}
