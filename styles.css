@@ -1,15 +1,36 @@
 /*HEADER STYLES*/
 
-.header {
+.cover_container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+
+  position: ;
+      transition: transform 0.3s ease;
+      
+}
+.cover_container h1 {
+ 
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+}
+
+header {
     
-    background-color: #364353;
+    background-color: none;
     color: #fff;/*Sets the text color to white*/
-    padding: 2rem 0;
+    padding-top: rem;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
+
+  #navbarNav {
+
+    padding-left: 35rem; 
+  }
+
 
   body {
     background-image: url(website-images/img17.jpg);
@@ -30,8 +51,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #4b4b4b, #181818); 
-    color: #e6e6e6e0; /* Light gray text */
+    background-color: rgba(0, 0, 0, 0.6) 
+    color; #e6e6e6e0; 
+    text-align: center;
+    padding-top: 5px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+
+  }
+
+  main h2 {
+    font-weight: bold;
     text-align: center;
   }
 
@@ -112,6 +143,9 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* Soft shadow */
   }
    
+  .card-body h5 {
+    font-weight: bold;
+  }
 
 /* NAVIGATION STYLES */
 .nav-container {
@@ -234,10 +268,10 @@
   display: flex;
   align-items: center;
   gap: 2rem;
-  background: rgba(0, 0, 0, 0.3);/*Sets the background color*/
+  background: rgba(0, 0, 0, 0.7);/*Sets the background color*/
   padding: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 10.0);
   transition: transform 0.3s ease;
 }
 
@@ -301,9 +335,13 @@
 }
 
 /*form styles*/
-
+.form-container h2 {
+  color: black;
+  font-weight: bold;
+  font-family: serif;
+}
 .form-container {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.801);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -406,4 +444,24 @@ button:hover {
 
   display: flex;
   gap: 16px;
+}
+
+/*about styles*/
+.history {
+  width: 100%;
+
+  display: grid;
+  grid:
+    "about-Us" 240px
+    "our history" 240px
+    / 240px;
+  gap: 8px;
+  grid-auto-flow: column;
+}
+
+.about-Us { 
+  grid-area: about-us; 
+}
+.our history { 
+  grid-area: our history; 
 }
